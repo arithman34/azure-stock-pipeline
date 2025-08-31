@@ -1,0 +1,79 @@
+{
+    "cluster_id": "0831-095015-l0ym2xm6",
+    "creator_user_name": "arithman34@hotmail.com",
+    "driver": {
+        "private_ip": "10.139.64.4",
+        "node_id": "56877c1e8551497baa3532aff4695c05",
+        "instance_id": "d169531f982e4169a43318749e273659",
+        "start_timestamp": 1756634306874,
+        "node_type_id": "Standard_D4ds_v5",
+        "node_attributes": {
+            "is_spot": false
+        },
+        "host_private_ip": "10.139.0.4",
+        "ngrok_endpoint_base_domain": "green.mux.ngrok-dataplane.wildcard"
+    },
+    "spark_context_id": 1760933938694692600,
+    "driver_healthy": true,
+    "jdbc_port": 10000,
+    "cluster_name": "Arif Othman's Cluster",
+    "spark_version": "15.4.x-scala2.12",
+    "spark_conf": {
+        "spark.master": "local[*, 4]",
+        "spark.databricks.cluster.profile": "singleNode"
+    },
+    "azure_attributes": {
+        "first_on_demand": 1,
+        "availability": "ON_DEMAND_AZURE",
+        "spot_bid_max_price": -1
+    },
+    "node_type_id": "Standard_D4ds_v5",
+    "driver_node_type_id": "Standard_D4ds_v5",
+    "custom_tags": {
+        "ResourceClass": "SingleNode"
+    },
+    "autotermination_minutes": 30,
+    "enable_elastic_disk": true,
+    "disk_spec": {},
+    "cluster_source": "UI",
+    "enable_local_disk_encryption": false,
+    "instance_source": {
+        "node_type_id": "Standard_D4ds_v5"
+    },
+    "driver_instance_source": {
+        "node_type_id": "Standard_D4ds_v5"
+    },
+    "data_security_mode": "USER_ISOLATION",
+    "runtime_engine": "STANDARD",
+    "effective_spark_version": "15.4.x-scala2.12",
+    "kind": "CLASSIC_PREVIEW",
+    "is_single_node": true,
+    "release_version": "15.4.22",
+    "state": "RUNNING",
+    "state_message": "",
+    "start_time": 1756633815664,
+    "last_state_loss_time": 0,
+    "last_activity_time": 1756634345580,
+    "last_restarted_time": 1756634398615,
+    "num_workers": 0,
+    "cluster_memory_mb": 16384,
+    "cluster_cores": 4,
+    "default_tags": {
+        "Vendor": "Databricks",
+        "Creator": "arithman34@hotmail.com",
+        "ClusterName": "Arif Othman's Cluster",
+        "ClusterId": "0831-095015-l0ym2xm6"
+    },
+    "init_scripts_safe_mode": false,
+    "spec": {
+        "cluster_name": "Arif Othman's Cluster",
+        "spark_version": "15.4.x-scala2.12",
+        "node_type_id": "Standard_D4ds_v5",
+        "autotermination_minutes": 30,
+        "data_security_mode": "DATA_SECURITY_MODE_AUTO",
+        "runtime_engine": "STANDARD",
+        "kind": "CLASSIC_PREVIEW",
+        "is_single_node": true,
+        "apply_policy_default_values": false
+    }
+}
